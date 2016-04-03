@@ -5,10 +5,13 @@ The script `run_analysis.R` performs the 5 steps described in the course project
 •	Input data is merged by using the `rbind()` function. 
 -	Files having the same number of columns and related  to the same entities.
 -	Columns are renamed with the correct names, taken from `features.txt`.
-•	Columns with the mean and standard deviation measures are used from the available dataset.  
+•	Columns with the mean and standard deviation measures are used from the available dataset. 
+
 •	Then activity data is addressed with values 1:6.
 - Activity names and IDs are taken from `activity_labels.txt`, which are substituted in the dataset.
+
 •	Removed parentheses, column names  made clearer (by using the `gsub()`).
+
 •	A new dataset is generated  with all the average measurements for each subject and each activity type (by using the `ddply()`).
  The output file is called  `tidydata.txt`, which is uploaded to this repository.
 
