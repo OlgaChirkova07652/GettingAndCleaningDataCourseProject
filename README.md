@@ -1,4 +1,4 @@
-#This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization.
+This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization.
 
 ##About the raw data
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
