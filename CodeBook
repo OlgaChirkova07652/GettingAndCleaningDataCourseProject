@@ -1,4 +1,4 @@
-Introduction
+#Introduction
 The script run_analysis.R performs the 5 steps described in the course project's definition.
 •	Input data is merged by using the rbind() function.
 -	Files having the same number of columns and related  to the same entities. 
@@ -10,7 +10,7 @@ The script run_analysis.R performs the 5 steps described in the course project's
 •	A new dataset is generated  with all the average measurements for each subject and each activity type (by using the ddply()).
  The output file is called  tidydata.txt, which is uploaded to this repository.
 
-Variables
+#Variables
 •	x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
 •	train_data, test_data merge the previous datasets to further analysis.
 •	labels contains the correct names for the data dataset, which are applied to the column names stored in data, a numeric vector used to extract the desired data.
